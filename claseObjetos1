@@ -1,0 +1,32 @@
+public class Hospital {
+
+	public String nombre;
+	public String ubicacion;
+	public String especialidad;
+	public int num_max_paciente;
+	public int num_cuartos;
+	public int num_doctores;
+	public boolean estacionamientos;
+	public int num_quirofanos;
+
+    public Hospital(String nombreIn, String especialidadIn, int num_max_pacientesIn, int num_doctoresIn) {
+
+    	this.nombre=nombreIn;
+    	this.especialidad=especialidadIn;
+    	this.num_max_pacientesIn;
+    	this.num_doctores=num_doctoresIn;
+    }
+}
+    	public void consultas (){
+    		System.out.println("consultando el hospital");
+    	}
+    	public void urgencias(){
+    		System.out.println("en urgencias");
+    	}
+    	public void alta(){
+    		System.out.println("dando de alta al paciente");
+    	}
+    		public void registro(){
+    	 System.out.println("registrando paciente");
+    	 }
+    	 }
